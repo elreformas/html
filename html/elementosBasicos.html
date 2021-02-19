@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos básicos</title>
+    <link rel="stylesheet" type="text/css" href="../estilos/elementosBasicosStyle.css">
+    <link rel="shortcut icon" href="../Imagenes/manual-icon.png">
+</head>
+<body> 
+    <main>
+        <div id="menu">
+            <h2>Menú</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <br>
+                <br>
+                <a href="elementosBasicos.html">Elementos básicos</a>
+            </nav>
+    
+            <h2 id="contenidos">Contenidos</h2>
+            <ol id="listaIndice">
+                <li><a href="#titulos">Títulos</a></li>
+                <li><a href="#parrafos">Párrafos</a></li>
+                <li><a href="#preformateado">Texto preformateado</a></li>
+                <li><a href="#listas">Listas</a></li>
+                <li><a href="#lineaHorizontal">Lineas horizontales</a></li>
+            </ol>
+        </div>
+    
+        <div id="principal">
+            <div id="titulos">
+                <h2>Títulos</h2>
+
+                <p>Lo primero y mas básico es reconocer los 6 niveles de asignación que hay para indicar títulos en un documento HTML.
+                Se representan con la etiqueta "h" y a continuación vamos a ver unos ejemplos:</p>
+
+                <div id="ejemploTitulos">
+                    <h1>Este es el primer nivel, "h1"</h1>
+                    <h3>Este es el tercer nivel, "h3"</h3>
+                    <h6>Este es el sexto nivel, "h6"</h6>
+                </div>
+            </div>
+            
+            <div id="parrafos">
+            <h2>Párrafos</h2>
+
+            <p>El siguiente elemento a ver son los párrafos. Practicamente todo el texto que vemos en una pagina web que no sean títulos o
+                elementos específicos, estan recogidos dentro de una etiqueta llamada "p". Esta etiqueta nos permite crear parrafos en nuestra
+                    página web para así tener nuestros textos ordenados y jerarquizados. Este mismo texto por ejemplo, esta recogido dentro de una
+                        de estas etiquetas.</p>
+            <p>Para tener parrafos diferentes es tan sencillo como volver a abrir otra etiqueta "p" e introducir nuestro siguiente parrafo dentro.
+                De esta forma al tener distintos parrafos, puedes aplicarles distintos estilos o propiedades.</p>
+            </div>
+
+            <div id="preformateado">
+                <h2>Texto preformateado</h2>
+
+                <p>Hay casos en los que el texto que queremos representar en nustra página, debe estar con el mismo formato con el que esta en el
+                    propio código HTML. Con sus mismos saltos de línea, espacios, etc...</p>
+                <p>Para ellos debemos usar la etiqueta "pre". A continuación vemos el ejemplo:</p>
+                
+                <div id="ejemploPre">
+                    <pre>Este texto se representará
+                            tal y como esta puesto
+                                en el código HTML.
+                    Puede parecer poco útil
+                                pero a veces es necesario, segun la situación.
+                    </pre>
+                </div>
+            </div>
+
+            <div id="listas">
+                <h2>Listas</h2>
+
+                <p>Las listas son un elemento indispensable para poder crear listas de nuestros elementos ya sean ordenadas o desordenadas.</p>
+                <p>Para este elemento tenemos varias etiquetas pero las principales y mas importantes son: "ul" y "ol" para crear la lista y
+                    "li" para los elementos que queramos poner dentro de las lista.</p>
+                <p>A continuación vamos a ver unos ejemplos:</p>
+                
+                <div id="ejemploTablas">
+                <div class="ejemploLista">
+                    <h4>Lista ordenada</h4>
+                    <ol>
+                        <li>Primer elemento</li>
+                        <li>Segundo elemento</li>
+                        <li>Tercer elemento</li>
+                    </ol>
+                </div>
+                <div class="ejemploLista">
+                    <h4>Lista desordenada</h4>
+                    <ul>
+                        <li>Primer elemento</li>
+                        <li>Segundo elemento</li>
+                        <li>Tercer elemento</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+            <div id="lineaHorizontal">
+                <h2>Línea horizontal</h2>
+
+                <p>El último elemento que vamos a ver en el apartado de elementos básicos son las lineas horizontales. Estas lineas nos sirven como
+                    separadores para diferenciar entre diferentes parrafos en por ejemplo literatura, listados, etc...
+                </p>
+                <p>Para ello es tan fácil como usar la etiqueta "hr". A continuacion veremos un ejemplo:</p>
+
+                <div id="ejemploLinea">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id orci commodo, luctus dolor accumsan, lacinia ipsum. 
+                    Praesent pulvinar dapibus lacus, vel congue libero. Mauris varius magna mi, vel iaculis ipsum pulvinar sed. 
+                    Donec ornare pellentesque ullamcorper. Pellentesque tristique gravida orci. Sed eget posuere arcu. 
+                    Sed nulla nisl, aliquam ut iaculis vitae, interdum non urna. Suspendisse tincidunt quam vitae accumsan accumsan. 
+                    Maecenas posuere commodo orci, at vestibulum velit iaculis eu. Quisque in dapibus arcu. Vivamus vel ante sit amet nibh tincidunt molestie. 
+                    Integer ultricies libero vulputate, maximus neque in, consectetur lorem.</p> 
+                    <hr>
+                    <p>In fringilla vel lorem id aliquam. Mauris eget metus lobortis, venenatis felis vel, iaculis lacus. 
+                        Phasellus a leo tempus lorem aliquet efficitur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                        Morbi varius vehicula ultrices. Duis a magna justo. Vestibulum hendrerit dolor sed iaculis egestas. 
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed luctus dictum ante, in euismod ante egestas a. 
+                        Sed in tempor justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut in facilisis lectus. Suspendisse vitae urna lectus. 
+                        Nullam vitae nisl vel urna tincidunt tincidunt vel vitae tortor.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

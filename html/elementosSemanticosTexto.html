@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual - Elementos semánticos de texto</title>
+    <link rel="stylesheet" type="text/css" href="../estilos/elementosSemanticosTextoStyle.css">
+    <link rel="shortcut icon" href="../Imagenes/manual-icon.png">
+    <script src="../javascript/boton.js"></script>
+</head>
+<body>
+    <main>
+        
+        <div id="menu">
+            <h2>Menú</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <br>
+                <br>
+                <a href="elementosBasicos.html">Elementos básicos</a>
+                <br>
+                <br>
+                <a href="elementosSemanticosTexto.html">Elementos semánticos de texto</a>
+            </nav>
+            <h2 id="contenidos">Contenidos</h2>
+            <ol id="listaIndice">
+                <li><a href="#resaltado">Resaltado</a></li>
+                <li><a href="#saltosLinea">Saltos de línea</a></li>
+                <li><a href="#enlaces">Hiperenlaces</a></li>
+            </ol>
+        </div>
+
+        <div id="principal">
+            <div id="resaltado">
+                <h2>Resaltado del texto</h2>
+                <p>Hay situaciones en las cuales necesitamos resaltar una parte concreta de nuestro texto la cual
+                    no podemos personalizar por medio de CSS. Para ello usamos una serie de etiquetas que se encargan 
+                    del resaltado de texto justo donde las designamos.
+                </p>
+                <p>Para ello vamos a ver unos ejemplos muy sencillos:</p>
+
+                <h4>Cursiva</h4>
+                <p>El resaltado de texto en cursiva se representa con la etiqueta "i" y debemos colocar dentro de esta
+                    etiqueta el texto que queramos resaltar. Por ejemplo:
+                </p>
+                <div class="tiposResaltado">
+                    <p>Este texto sigue siendo normal pero de repente, <i>este fragmento de aqui cambia a cursiva.</i></p>
+                </div>
+
+                <h4>Negrita</h4>
+                <p>Para resaltar fragmentos de nuestro texto en negrita se necesita la etiqueta "b". Al igual que la etiqueta
+                    de cursiva, debemos colocar nuestro texto dentro de dicha etiqueta. Por ejemplo:
+                </p>
+                <div class="tiposResaltado">
+                    <p>Queremos resaltar el nombre de una persona, por ejemplo, <b>Edgar Sánchez</b> o el de una ciudad, por ejemplo, <b>Barcelona</b>.</p>
+                </div>
+
+                <h4>Subrayado</h4>
+                <p>Para resaltar fragmentos de texto con un subrayado usaremos la etiqueta "u" y de nuevo, pondremos el texto a resaltar
+                    dentro de la etiqueta. Por ejemplo:
+                </p>
+                <div class="tiposResaltado">
+                    <p>En este caso tambien queremos resaltar el nombre de una ciudad o de una persona pero no queremos resaltarlos
+                        en negrita si no que queremos que sea un subrayado: <u>Edgar Sánchez</u> y <u>Barcelona</u>.
+                    </p>
+                </div>
+                
+                <h4>Otros elementos de resaltado</h4>
+                <p>En general, los elementos desarrollados anteriormente son los que mas se solían utilizar en los inicios de la programacion web. 
+                    Tenemos otros elementos de resaltado que son mas correctos para su uso en html y que vamos a explicar brevemente. Dichos elementos son:
+                </p>
+                <div class="tiposResaltado">
+                    <p>STRESS EMPHASIS: se representa con la etiqueta "em" y nos permite añadir énfasis a una parte del texto, por ejemplo: <em>patata</em></p>
+                </div>
+                <div class="tiposResaltado">
+                    <p>STRONG: se representa con la etiqueta "strong" y sirve para recalcar una parte importante o urgente en un documento, por ejemplo: 
+                    <strong>Examen la semana que viene</strong></p>
+                </div>
+                <div class="tiposResaltado">
+                    <p>SMALL: etiqueta para representar la letra pequeña de por ejemplo términos y condiciones de uso de un producto o un contrato, por ejemplo:<br><br>
+                    <small>Al aceptar los términos y condiciones de uso de nuestro producto, nos da permiso para usar sus órganos vitales en caso de que nuestro jefe
+                        se ponga enfermo.
+                    </small>
+                    </p>
+                </div>
+
+                <p>Como curiosidad, nos podemos fijar en que las etiquetas de "STRESS EMPHASIS" y "STRONG" hacen la misma funcion que las etiquetas "i" y "b". Sin embargo
+                    es solamente visual. Con esto nos referimos a que en la manera en la que el navegador la procesa e interpreta es completamente distinta ya que las etiquetas "i" y "b"
+                    son explícitas, en cambio las etiquetas de "STRESS EMPHASIS" y "STRONG" son semánticas y nos permiten personalizarlas por medio de CSS.
+                </p>
+                <p>En conclusion, las etiquetas "i" y "b" se usaban en el pasado cuando no disponíamos de herramientas de personalización como CSS. Actualmente no son recomendables
+                    usarlas y se sustituyeron por "STRESS EMPHASIS" y "STRONG" ya que la personalizacion de la estructura (HTML) se debe realizar con CSS.
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
